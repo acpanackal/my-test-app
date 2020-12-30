@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+h5 strong {
+  color: #a80c1e;
+  display: block;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 5mm;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,14 +24,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #74a389;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  padding-top: 30px;
 }
 
 .App-link {
@@ -35,4 +46,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  margin: 15px !important;
+}
+.toDoList {
+  list-style: none;
+}
+
+.itemListContainer {
+  color: black;
+  margin: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.card-text,
+.card-block {
+  align-items: left;
+  text-align: left;
+  padding-left: 5mm;
+}
+.itemDescription {
+  margin: 50px;
+  text-align: left;
 }
